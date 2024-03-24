@@ -24,6 +24,6 @@ import mongoose from "mongoose";
     {timestamps:true}
  );
 
- const User = mongoose("User", TouristSchema);
+ const User = mongoose.model("User",TouristSchema);
 
  export default User;

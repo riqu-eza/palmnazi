@@ -1,0 +1,72 @@
+.new-page {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.left-content {
+  flex: 1;
+  padding: 20px;
+}
+.left-content a {
+  color: #050505;
+  text-decoration: none;
+  padding: 0 0.5rem;
+  font-size: 1.2rem;
+  transition: 0.3s;
+}
+.left-content a:hover{
+    color: #04daf7;
+} 
+
+.right-content {
+  flex: 1;
+  position: relative;
+}
+.left-content,
+.right-content {
+  margin: 100px;
+}
+
+.image-box {
+  background-image: url("../img/mtkenya.jpeg");
+  background-size: cover;
+  height: 100vh;
+  border-radius: 30px;
+}
+
+.text-overlay {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: rgb(8, 245, 245);
+  padding: 20px;
+}
+button {
+  background-color: #4a88ac;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.4s ease;
+  margin: 10px;
+  transition: 0.3s;
+}
+button:hover {
+  background-color: #04daf7;
+  color: black;
+}
+
+.text-overlay h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+p {
+  font-size: 20px;
+}
+
+.divcon {
+  text-align: left;
+}

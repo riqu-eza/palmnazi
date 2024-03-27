@@ -1,7 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./home.css";
-import NavlinkRoutes from "../routes/navbarlink";
+import AuthPage from "./signup/login";
+
 
 const Navbar = () => {
   return (
@@ -14,7 +15,7 @@ const Navbar = () => {
         <Link to="/ResortCities">Resort Cities</Link>
         <Link to="/Business">For Business</Link>
         <Link to="/Resources">Resources</Link>
-        <Link to="/getstarted"> Getstarted</Link>
+        <Link to="/signup/login"> Getstarted</Link>
       </div>
     </nav>
   );
